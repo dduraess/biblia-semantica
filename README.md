@@ -15,7 +15,7 @@ Mais de 400 milhões de pessoas de língua portuguesa:
 
 		Novo testamento
 
-		-	Português ARA destacado: exibição com pequenos nrs de versículo e quebra em parágrafo, onde: se in_fim_paragrafo for null não quebrar; se in_fim_paragrafo for 'S' quebra com espaçamento padrão; se in_fim_paragrafo for texto, exibir comentário do Autor (p.ex. preâmbulo do salmo 18) com espaçamento antes e depois
+		- Português ARA destacado: exibição com pequenos nrs de versículo e quebra em parágrafo, onde: se in_fim_paragrafo for null não quebrar; se in_fim_paragrafo for 'S' quebra com espaçamento padrão; se in_fim_paragrafo for texto, exibir comentário do Autor (p.ex. preâmbulo do salmo 18) com espaçamento antes e depois
 		- Original koine fonte pequena Hint Strong's traduzido português (NLP); link para modal concordância (frame 1: ocorrências original koine; frame 2: ocorrências AT conf. LXX NLP) *** TODO => texto grego p/banco *** 
 
 		Misc
