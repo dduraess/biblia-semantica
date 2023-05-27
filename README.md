@@ -1,4 +1,4 @@
-# rascunho-projetos
+# almeida-semantica
 
 Mais de 400 milhões de pessoas de língua portuguesa:
 
