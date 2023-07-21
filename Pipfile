@@ -4,12 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyterlab = "*"
-notebook = "*"
-voila = "*"
-sqlalchemy = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "2.7"
+python_version = "3.10"
+python_full_version = "3.10.6"
