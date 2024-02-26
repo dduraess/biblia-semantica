@@ -35,5 +35,6 @@ Mais de 400 milhões de pessoas de língua portuguesa:
 
 	MVP
 
+		Tradução automática MYMEMORY.TRANSLATED.NET do hebraico moderno, baseado no  
 		Tanakh + LXX tooltip apenas com strongs (*)
 		Novo Testamento koine
