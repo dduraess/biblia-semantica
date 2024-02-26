@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../serpro/scripts"
+		},
+		{
+			"path": "../serpro/cobint-ti/spi"
+		},
+		{
+			"path": "../serpro/cobint-ti/rqm"
+		},
+		{
+			"path": "../serpro/cobint-ti/massa"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
