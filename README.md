@@ -1,4 +1,4 @@
-# almeida-semantica
+# bíblia-semantica
 
 Mais de 400 milhões de pessoas de língua portuguesa:
 
