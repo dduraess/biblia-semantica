@@ -23,7 +23,7 @@ Mais de 400 milhões de pessoas de língua portuguesa:
 		- Português ARA destacado: exibição com pequenos nrs de versículo e quebra em parágrafo, onde: se in_fim_paragrafo for null não quebrar; se in_fim_paragrafo for 'S' quebra com espaçamento padrão; se in_fim_paragrafo for texto, exibir comentário do Autor (p.ex. preâmbulo do salmo 18) com espaçamento antes e depois
 		- Original koine fonte pequena Hint Strong's traduzido português (NLP); link para modal concordância (frame 1: ocorrências original koine; frame 2: ocorrências AT conf. LXX)
 
-		Misc
+		Misc NLP
 
 		- Busca semântica em portugues p/extrair frases do seu contexto bíblico;
 
@@ -35,6 +35,8 @@ Mais de 400 milhões de pessoas de língua portuguesa:
 
 	MVP
 
-		Tradução automática MYMEMORY.TRANSLATED.NET do hebraico moderno, baseado no  
+		Tradução automática MYMEMORY.TRANSLATED.NET do hebraico moderno da Tanack, baseado no projeto https://github.com/openscriptures/morphhb, derivado do Westiminster Leningrad Codex (domínio público)
+		***TODO*** Tradução automática do Grego
+		***TODO*** Verificar biblioteca (spacy, bert) que pode ser usado para treinar modelos de tradução para novas línguas  
 		Tanakh + LXX tooltip apenas com strongs (*)
 		Novo Testamento koine
