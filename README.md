@@ -40,3 +40,16 @@ Mais de 400 milhões de pessoas de língua portuguesa:
 		***TODO*** Verificar biblioteca (spacy, bert) que pode ser usado para treinar modelos de tradução para novas línguas  
 		Tanakh + LXX tooltip apenas com strongs (*)
 		Novo Testamento koine
+
+	Classes
+    Livros (enum) abstraido = LivrosDAO
+    Capitulo = CapitulosDAO
+    Versiculo = VersiculosDAO
+        => tokenized (sintaxe)
+        => periodo_semantico
+    Palavra = PalavrasDAO
+        => fonte
+        => palavra
+        => lemma
+        => morfo
+        => steam

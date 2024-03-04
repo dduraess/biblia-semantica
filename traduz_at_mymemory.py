@@ -1,6 +1,6 @@
 #!/opt/homebrew/bin/python3
 
-# [1] Fonte; [2] livro; [3] cap_ini; [4] cap_fim
+# params: [1] Fonte; [2] livro; [3] cap_ini; [4] cap_fim
 
 import sqlite3
 import sys
