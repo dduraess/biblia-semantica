@@ -14,6 +14,9 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "../serpro/cobint-ti"
 		}
 	],
 	"settings": {}
