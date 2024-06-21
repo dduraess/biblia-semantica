@@ -1,11 +1,12 @@
 import sqlite3
 
-class palavra_hb:
+class PalavraHb:
     def __init__(self, palavra):
         self.ocorrencia = palavra
         self.ocorrencias = self.set_ocorrencias()
         self.strongs = self.set_strongs()
         # TODO self.stemm/lemma = self.set_lemma()
+        # TODO self.para_gg = set_lemma_gg(self.lemma)
 
     def set_ocorrencias(self):
         sql = """
@@ -23,9 +24,12 @@ class palavra_hb:
         return rs
     
     # TODO método para obter stemm/lemma e reduzir as ocorrências/restringir a semântica
-    # (atentar que a raiz da palavra hebraica (como nas línguas semíticas) não funciona com prefixo sufixo)
-    
+    # (atentar que a raiz da palavra hebraica (como nas línguas semíticas) não funciona com prefixo/sufixo)
     # def set_lemma(self):
+
+    # TODO método para obter stemm/lemma no grego, para encontrar refs no NT (ver se esse 
+    # método é útil no contexto semântico do hebraico para o grego)
+    # def set_lemma_gg(self):
     
 
     def set_strongs(self):

@@ -1,4 +1,4 @@
-from src.vers_gg import *
+from src.VersoGg import *
 import pytest
 
 def conteudo_test():

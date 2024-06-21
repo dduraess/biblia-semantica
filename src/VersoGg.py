@@ -2,13 +2,15 @@ import xml.etree.ElementTree as ET
 import sqlite3
 from src.livro import livro
 
-class Vers_gg:
-    def __init__(self, nm_livro, nr_cap, nr_vs):
-        self.livro = livro[nm_livro].value
+class VersoGg:
+    def __init__(self, id_livro, nr_cap, nr_vs):
+        if isinstance(id_livro, int):
+            self.livro=id_livro
+        else:
+            self.livro = livro[id_livro].value
         self.cap = nr_cap
         self.nr_vs = nr_vs
         self.vs = self.set_vs()
-        self.qtde_palavras = len(self.vs)
 
     def set_vs(self):
 

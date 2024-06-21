@@ -163,3 +163,5 @@ Pipfile
 Pipfile.lock
 .python-version
 .DS_Store
+glem/*
+.DS_Store
