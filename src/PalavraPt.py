@@ -9,19 +9,12 @@ class PalavraGg:
         # self.strongs = self.set_strongs()
         self.lemma = self.set_lemma()
 
-    def conexao(arq):
-        try:
-            with sqlite3.connect(arq) as con:
-                return con
-        except sqlite3.Error as er:
-            return er
-
     def set_ocorrencias(self):
         sql = "SELECT nr_sq_livro, chapter, verse FROM bible WHERE content like '%{}%'".format(self.ocorrencia)
-        sbl = '/Users/davison/Software/almeida-semantica/db/sbl.db'
-        
-        cursor = conexao(sbl).cursor()
-        rs = cursor.execute(sql).fetchall()
+
+        with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/sbl.db') as cnx:
+            cursor = cnx.cursor()
+            rs = cursor.execute(sql).fetchall()
 
         # atributo de verso contendo lista de XML cujos filhos são atributos
         lst_ocorrencias = [VersoGg(id_livro, nr_cap, nr_vs).vs for id_livro, nr_cap, nr_vs in rs]
@@ -36,7 +29,6 @@ class PalavraGg:
                 chapter_nr, 
                 verse_nr
                 , word_nr
-                , word
                 , word_root --lemma
                 , morphology
             from 
@@ -44,25 +36,25 @@ class PalavraGg:
             where 
                 word_root like '%{}%'
             """
-        lxx = '/Users/davison/Software/almeida-semantica/db/lxx.db'
 
-        cursor = conexao(lxx).cursor()
-        rs = cursor.execute(sql.format(self.ocorrencia)).fetchall()
+        with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/lxx.db') as cnx:
+            cursor = cnx.cursor()
+            rs = cursor.execute(sql.format(self.ocorrencia)).fetchall()
         return rs
     
     def set_strongs(self):
         
-        ls_rs = list()
+        ls_rs = []
         # removendo as duplicatas para as definições dicionário strong
         for cd_strong in list(dict.fromkeys(strong_ocorrencias)):
-            strongs = '/Users/davison/Software/almeida-semantica/db/strongs.sqlite'
-            sql = "SELECT number, description FROM strongs WHERE number like '{}'".format(cd_strong)
-            cursor = conexao(strongs).cursor()
-            rs = cursor.execute(sql).fetchone()
+            with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/strongs.sqlite') as cnx:
+                cursor = cnx.cursor()
+                rs = cursor.execute("SELECT number, description FROM strongs WHERE number like '{}'".format(cd_strong)).fetchone()
             ls_rs.append(rs)
         
         return ls_rs
 
+    
     def set_lemma(self):
         pass
     

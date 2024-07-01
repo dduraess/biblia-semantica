@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../scripts"
+		},
+		{
+			"path": "../com.github.unyieldinggrace"
+		},
+		{
+			"path": "../util/kindle"
+		}
+	],
+	"settings": {}
+}

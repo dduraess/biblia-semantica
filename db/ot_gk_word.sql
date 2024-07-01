@@ -5,6 +5,7 @@ select
     chapter_nr, 
     verse_nr
     , word_nr
+    , word
     , word_root
     , morphology
 from 
