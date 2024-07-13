@@ -1,0 +1,707 @@
+{
+  "count": 112512,
+  "next": "https://greekwordnet.chs.harvard.edu/api/index/?limit=100&offset=100",
+  "previous": null,
+  "results": [
+    {
+      "lemma": "ἀ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00001",
+      "prosody": "ἀ"
+    },
+    {
+      "lemma": "ἀ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00002",
+      "prosody": "ἀ"
+    },
+    {
+      "lemma": "ἃ",
+      "pos": "p",
+      "morpho": "----------",
+      "uri": "α00003",
+      "prosody": "ἃ"
+    },
+    {
+      "lemma": "ἆ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00005",
+      "prosody": "ἆ"
+    },
+    {
+      "lemma": "ἆ",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "α00004",
+      "prosody": "ἆ"
+    },
+    {
+      "lemma": "ἒ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ε00001",
+      "prosody": "ἒ"
+    },
+    {
+      "lemma": "ἕ",
+      "pos": "p",
+      "morpho": "----------",
+      "uri": "ε00002",
+      "prosody": "ἕ"
+    },
+    {
+      "lemma": "ἤ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "η00001",
+      "prosody": "ἤ"
+    },
+    {
+      "lemma": "ἤ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "η00003",
+      "prosody": "ἤ"
+    },
+    {
+      "lemma": "ἤ",
+      "pos": "r",
+      "morpho": "----------",
+      "uri": "η00002",
+      "prosody": "ἤ"
+    },
+    {
+      "lemma": "ἦ",
+      "pos": "a",
+      "morpho": "----------",
+      "uri": "η00006",
+      "prosody": "ἦ"
+    },
+    {
+      "lemma": "ἦ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "η00007",
+      "prosody": "ἦ"
+    },
+    {
+      "lemma": "ἦ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "η00005",
+      "prosody": "ἦ"
+    },
+    {
+      "lemma": "ἦ",
+      "pos": "r",
+      "morpho": "----------",
+      "uri": "η00004",
+      "prosody": "ἦ"
+    },
+    {
+      "lemma": "ἧ",
+      "pos": "r",
+      "morpho": "----------",
+      "uri": "η00008",
+      "prosody": "ἧ"
+    },
+    {
+      "lemma": "ἴ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ι00001",
+      "prosody": "ἴ"
+    },
+    {
+      "lemma": "ἵ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ι00002",
+      "prosody": "ἵ"
+    },
+    {
+      "lemma": "ἷ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ι00003",
+      "prosody": "ἷ"
+    },
+    {
+      "lemma": "ὀ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ο00001",
+      "prosody": "ὀ"
+    },
+    {
+      "lemma": "ὁ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ο00002",
+      "prosody": "ὁ"
+    },
+    {
+      "lemma": "ὅ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ο00004",
+      "prosody": "ὅ"
+    },
+    {
+      "lemma": "ὅ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ο00003",
+      "prosody": "ὅ"
+    },
+    {
+      "lemma": "ὅ",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ο00005",
+      "prosody": "ὅ"
+    },
+    {
+      "lemma": "ὗ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "υ00001",
+      "prosody": "ὗ"
+    },
+    {
+      "lemma": "ὥ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ω00001",
+      "prosody": "ὥ"
+    },
+    {
+      "lemma": "ὦ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ω00003",
+      "prosody": "ὦ"
+    },
+    {
+      "lemma": "ὦ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ω00002",
+      "prosody": "ὦ"
+    },
+    {
+      "lemma": "ὧ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ω00004",
+      "prosody": "ὧ"
+    },
+    {
+      "lemma": "ᾗ",
+      "pos": "r",
+      "morpho": "rp--------",
+      "uri": null,
+      "prosody": "ᾗ"
+    },
+    {
+      "lemma": "ὀᾶ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ο00006",
+      "prosody": "ὀᾶ"
+    },
+    {
+      "lemma": "ῥᾶ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ρ00001",
+      "prosody": "ῥᾶ"
+    },
+    {
+      "lemma": "ῥᾶ",
+      "pos": "r",
+      "morpho": "----------",
+      "uri": "ρ00002",
+      "prosody": "ῥᾶ"
+    },
+    {
+      "lemma": "ῥῶ",
+      "pos": "n",
+      "morpho": "n-s---nn--",
+      "uri": "ρ00003",
+      "prosody": "ῥῶ"
+    },
+    {
+      "lemma": "Α",
+      "pos": "l",
+      "morpho": "----------",
+      "uri": null,
+      "prosody": "Α"
+    },
+    {
+      "lemma": "α",
+      "pos": "a",
+      "morpho": "aps---mn1-",
+      "uri": "α00006",
+      "prosody": "α"
+    },
+    {
+      "lemma": "α",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00007",
+      "prosody": "α"
+    },
+    {
+      "lemma": "ἔα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ε00004",
+      "prosody": "ἔα"
+    },
+    {
+      "lemma": "ἔα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ε00003",
+      "prosody": "ἔα"
+    },
+    {
+      "lemma": "ἦα",
+      "pos": "n",
+      "morpho": "n-p---nn2-",
+      "uri": "η00009",
+      "prosody": "ἦα"
+    },
+    {
+      "lemma": "ἰα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ι00004",
+      "prosody": "ἰα"
+    },
+    {
+      "lemma": "ἴα",
+      "pos": "a",
+      "morpho": "----------",
+      "uri": "ι00006",
+      "prosody": "ἴα"
+    },
+    {
+      "lemma": "ἴα",
+      "pos": "a",
+      "morpho": "----------",
+      "uri": "ι00005",
+      "prosody": "ἴα"
+    },
+    {
+      "lemma": "ὄα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ο00008",
+      "prosody": "ὄα"
+    },
+    {
+      "lemma": "ὄα",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": "ο00007",
+      "prosody": "ὄα"
+    },
+    {
+      "lemma": "ὤα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ω00005",
+      "prosody": "ὤα"
+    },
+    {
+      "lemma": "ᾤα",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": null,
+      "prosody": "ᾤα"
+    },
+    {
+      "lemma": "ῥῆα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ρ00004",
+      "prosody": "ῥῆα"
+    },
+    {
+      "lemma": "ἰαῦ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ι00007",
+      "prosody": "ἰαῦ"
+    },
+    {
+      "lemma": "αἰ",
+      "pos": "r",
+      "morpho": "----------",
+      "uri": "α00008",
+      "prosody": "αἰ"
+    },
+    {
+      "lemma": "αἴ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00009",
+      "prosody": "αἴ"
+    },
+    {
+      "lemma": "αὖ",
+      "pos": "r",
+      "morpho": "----------",
+      "uri": "α00010",
+      "prosody": "αὖ"
+    },
+    {
+      "lemma": "αὗ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00011",
+      "prosody": "αὗ"
+    },
+    {
+      "lemma": "ἰά",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ι00008",
+      "prosody": "ἰά"
+    },
+    {
+      "lemma": "ἰά",
+      "pos": "n",
+      "morpho": "n-p---nn2-",
+      "uri": "ι00009",
+      "prosody": "ἰά"
+    },
+    {
+      "lemma": "ῥά",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ρ00005",
+      "prosody": "ῥά"
+    },
+    {
+      "lemma": "αἶα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00012",
+      "prosody": "αἶα"
+    },
+    {
+      "lemma": "αἶα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00013",
+      "prosody": "αἶα"
+    },
+    {
+      "lemma": "αἶα",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": "α00014",
+      "prosody": "αἶα"
+    },
+    {
+      "lemma": "αἰαῖ",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00015",
+      "prosody": "αἰαῖ"
+    },
+    {
+      "lemma": "αἴαγμα",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00016",
+      "prosody": "αἴαγμα"
+    },
+    {
+      "lemma": "αἰάζω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "α00017",
+      "prosody": "αἰάζω"
+    },
+    {
+      "lemma": "Αὑαίνου",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": null,
+      "prosody": "Αὑαίνου"
+    },
+    {
+      "lemma": "αὐαίνω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "α00018",
+      "prosody": "αὐαίνω"
+    },
+    {
+      "lemma": "αἰακίς",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00019",
+      "prosody": "αἰακίς"
+    },
+    {
+      "lemma": "αἰακτός",
+      "pos": "a",
+      "morpho": "aps---mn1-",
+      "uri": "α00020",
+      "prosody": "αἰακτός"
+    },
+    {
+      "lemma": "αὐαλέος",
+      "pos": "a",
+      "morpho": "aps---mn1-",
+      "uri": "α00021",
+      "prosody": "αὐαλέος"
+    },
+    {
+      "lemma": "αἰανής",
+      "pos": "a",
+      "morpho": "aps---cn5s",
+      "uri": "α00022",
+      "prosody": "αἰανής"
+    },
+    {
+      "lemma": "αὔανσις",
+      "pos": "n",
+      "morpho": "n-s---fn3v",
+      "uri": "α00023",
+      "prosody": "αὔανσις"
+    },
+    {
+      "lemma": "Αἰάντειος",
+      "pos": "a",
+      "morpho": "aps---mn1-",
+      "uri": null,
+      "prosody": "Αἰάντειος"
+    },
+    {
+      "lemma": "αὐαντή",
+      "pos": "n",
+      "morpho": "n-s---fn1e",
+      "uri": "α00024",
+      "prosody": "αὐαντή"
+    },
+    {
+      "lemma": "Αἰαντίδης",
+      "pos": "a",
+      "morpho": "----------",
+      "uri": null,
+      "prosody": "Αἰαντίδης"
+    },
+    {
+      "lemma": "Αἴας",
+      "pos": "n",
+      "morpho": "n-s---mn3d",
+      "uri": null,
+      "prosody": "Αἴας"
+    },
+    {
+      "lemma": "Αὔασις",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": null,
+      "prosody": "Αὔασις"
+    },
+    {
+      "lemma": "αὐασμός",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00025",
+      "prosody": "αὐασμός"
+    },
+    {
+      "lemma": "αἰαστής",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "α00026",
+      "prosody": "αἰαστής"
+    },
+    {
+      "lemma": "ἀάατος",
+      "pos": "a",
+      "morpho": "aps---cn2-",
+      "uri": "α00027",
+      "prosody": "ἀάατος"
+    },
+    {
+      "lemma": "ῥαβάσσω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00006",
+      "prosody": "ῥαβάσσω"
+    },
+    {
+      "lemma": "ῥαββί",
+      "pos": "n",
+      "morpho": "n-s---mn--",
+      "uri": "ρ00007",
+      "prosody": "ῥαββί"
+    },
+    {
+      "lemma": "ῥαβδῳδία",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ρ00008",
+      "prosody": "ῥαβδῳδία"
+    },
+    {
+      "lemma": "ῥαβδεύομαι",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00009",
+      "prosody": "ῥαβδεύομαι"
+    },
+    {
+      "lemma": "ῥαβδηφόρος",
+      "pos": "a",
+      "morpho": "aps---cn2-",
+      "uri": "ρ00010",
+      "prosody": "ῥαβδηφόρος"
+    },
+    {
+      "lemma": "ῥαβδίζω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00011",
+      "prosody": "ῥαβδίζω"
+    },
+    {
+      "lemma": "ῥαβδίον",
+      "pos": "n",
+      "morpho": "n-s---nn2-",
+      "uri": "ρ00012",
+      "prosody": "ῥαβδίον"
+    },
+    {
+      "lemma": "ῥαβδισμός",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ρ00013",
+      "prosody": "ῥαβδισμός"
+    },
+    {
+      "lemma": "ῥαβδιστής",
+      "pos": "n",
+      "morpho": "n-s---mn1e",
+      "uri": "ρ00014",
+      "prosody": "ῥαβδιστής"
+    },
+    {
+      "lemma": "ῥαβδοδίαιτος",
+      "pos": "a",
+      "morpho": "----------",
+      "uri": "ρ00015",
+      "prosody": "ῥαβδοδίαιτος"
+    },
+    {
+      "lemma": "ῥαβδοειδής",
+      "pos": "a",
+      "morpho": "aps---cn5s",
+      "uri": "ρ00016",
+      "prosody": "ῥαβδοειδής"
+    },
+    {
+      "lemma": "ῥαβδομαντεία",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": "ρ00017",
+      "prosody": "ῥαβδομαντεία"
+    },
+    {
+      "lemma": "ῥαβδομαχία",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": "ρ00018",
+      "prosody": "ῥαβδομαχία"
+    },
+    {
+      "lemma": "ῥαβδονομέω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00019",
+      "prosody": "ῥαβδονομέω"
+    },
+    {
+      "lemma": "ῥαβδονόμος",
+      "pos": "a",
+      "morpho": "aps---cn2-",
+      "uri": "ρ00020",
+      "prosody": "ῥαβδονόμος"
+    },
+    {
+      "lemma": "ῥαβδόομαι",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00021",
+      "prosody": "ῥαβδόομαι"
+    },
+    {
+      "lemma": "ῥάβδος",
+      "pos": "n",
+      "morpho": "n-s---fn2-",
+      "uri": "ρ00022",
+      "prosody": "ῥάβδος"
+    },
+    {
+      "lemma": "ῥαβδουχέω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00023",
+      "prosody": "ῥαβδουχέω"
+    },
+    {
+      "lemma": "ῥαβδουχία",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": "ρ00024",
+      "prosody": "ῥαβδουχία"
+    },
+    {
+      "lemma": "ῥάβδουχος",
+      "pos": "n",
+      "morpho": "n-s---mn2-",
+      "uri": "ρ00025",
+      "prosody": "ῥάβδουχος"
+    },
+    {
+      "lemma": "ῥαβδοφορέω",
+      "pos": "v",
+      "morpho": "----------",
+      "uri": "ρ00026",
+      "prosody": "ῥαβδοφορέω"
+    },
+    {
+      "lemma": "ῥαβδοφορία",
+      "pos": "n",
+      "morpho": "n-s---fn1l",
+      "uri": "ρ00027",
+      "prosody": "ῥαβδοφορία"
+    },
+    {
+      "lemma": "ῥαβδοφοριχόν",
+      "pos": "n",
+      "morpho": "----------",
+      "uri": "ρ00028",
+      "prosody": "ῥαβδοφοριχόν"
+    },
+    {
+      "lemma": "ῥαβδόφορος",
+      "pos": "a",
+      "morpho": "aps---cn2-",
+      "uri": "ρ00029",
+      "prosody": "ῥαβδόφορος"
+    }
+  ]
+}

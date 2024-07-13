@@ -11,4 +11,4 @@ select
 from 
     content
 where 
-    word_root like '%{}%'
+    word like '%{}%'
