@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "../util/kindle"
+		},
+		{
+			"path": "../treino-ml/cltk"
 		}
 	],
 	"settings": {}

@@ -12,15 +12,16 @@ class VersoPt:
         self.vs = self.set_vs()
 
     def set_vs(self):
+        pass
+        # TODO
+        # sql = 'SELECT text FROM verse WHERE book_id = {} AND chapter = {} AND verse = {}'.format(self.livro, self.cap, self.nr_vs)
 
-        sql = 'SELECT text FROM verse WHERE book_id = {} AND chapter = {} AND verse = {}'.format(self.livro, self.cap, self.nr_vs)
+        # try:
+        #     with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/ARA.sqlite') as cnx:
+        #         cursor = cnx.cursor()
+        #         rs = cursor.execute(sql).fetchone()
+        # except sqlite3.Error as er:
+        #     print(er)
 
-        try:
-            with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/ARA.sqlite') as cnx:
-                cursor = cnx.cursor()
-                rs = cursor.execute(sql).fetchone()
-        except sqlite3.Error as er:
-            print(er)
-
-        return rs[0]
+        # return rs[0]
     

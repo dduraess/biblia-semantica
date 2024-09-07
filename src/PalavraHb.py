@@ -1,4 +1,4 @@
-import sqlite3
+from src.ConectorBD import *
 
 class PalavraHb:
     def __init__(self, palavra):
@@ -18,9 +18,8 @@ class PalavraHb:
                 Form like '%{}%'
             """
 
-        with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/OSHB.db') as cnx:
-            cursor = cnx.cursor()
-            rs = cursor.execute(sql.format(self.ocorrencia)).fetchall()
+        oshb = '/Users/davison/Software/almeida-semantica/db/OSHB.db'
+        rs = ConectorBD(oshb).con.cursor().execute(sql.format(self.ocorrencia)).fetchall()
         return rs
     
     # TODO método para obter stemm/lemma e reduzir as ocorrências/restringir a semântica
@@ -38,11 +37,11 @@ class PalavraHb:
         strong_ocorrencias = [i[5].split('/', 1)[-1].split('/', 1)[-1] for i in self.ocorrencias]
         
         ls_rs = []
+        strongs_db = '/Users/davison/Software/almeida-semantica/db/strongs.sqlite'
+        sql_strongs = "SELECT number, description FROM strongs WHERE number like '{}'"
         # removendo as duplicatas para as definições dicionário strong
         for cd_strong in list(dict.fromkeys(strong_ocorrencias)):
-            with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/strongs.sqlite') as cnx:
-                cursor = cnx.cursor()
-                rs = cursor.execute("SELECT number, description FROM strongs WHERE number like '{}'".format(cd_strong)).fetchone()
+            rs = ConectorBD(strongs_db).con.cursor().execute(sql_strongs.format(cd_strong)).fetchone()
             ls_rs.append(rs)
         
         return ls_rs

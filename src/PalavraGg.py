@@ -1,29 +1,24 @@
-import sqlite3
+from src.ConectorBD import *
 from src.VersoGg import *
 
 class PalavraGg: 
     def __init__(self, palavra):
-        self.ocorrencia = palavra
+        self.literal = palavra
         self.ocorrencias = self.set_ocorrencias()
         self.ocorrencias_lxx = self.set_ocorrencias_lxx()
-        # self.strongs = self.set_strongs()
+        self.strong = self.set_strongs()
         self.lemma = self.set_lemma()
 
-    def conexao(arq):
-        try:
-            with sqlite3.connect(arq) as con:
-                return con
-        except sqlite3.Error as er:
-            return er
-
     def set_ocorrencias(self):
-        sql = "SELECT nr_sq_livro, chapter, verse FROM bible WHERE content like '%{}%'".format(self.ocorrencia)
+        sql = "SELECT nr_sq_livro, chapter, verse FROM bible WHERE content like '%{}%'".format(self.literal)
         sbl = '/Users/davison/Software/almeida-semantica/db/sbl.db'
         
-        cursor = conexao(sbl).cursor()
-        rs = cursor.execute(sql).fetchall()
+        # cursor = ConectorBD(sbl).con.cursor()
+        rs = ConectorBD(sbl).con.cursor().execute(sql).fetchall()
 
         # atributo de verso contendo lista de XML cujos filhos são atributos
+        # TODO alterar para retornar apenas as referências (atentar pelo nr da palavra)
+        # e não o conteúdo do versículo
         lst_ocorrencias = [VersoGg(id_livro, nr_cap, nr_vs).vs for id_livro, nr_cap, nr_vs in rs]
         return lst_ocorrencias
     
@@ -46,22 +41,23 @@ class PalavraGg:
             """
         lxx = '/Users/davison/Software/almeida-semantica/db/lxx.db'
 
-        cursor = conexao(lxx).cursor()
-        rs = cursor.execute(sql.format(self.ocorrencia)).fetchall()
+        rs = ConectorBD(lxx).con.cursor().execute(sql.format(self.literal)).fetchall()
         return rs
     
     def set_strongs(self):
+        # abaixo é como feito no hebraico
+        # TODO
+        # ls_rs = list()
+        # # removendo as duplicatas para as definições dicionário strong
+        # for cd_strong in list(dict.fromkeys(strong_ocorrencias)):
+        #     strongs = '/Users/davison/Software/almeida-semantica/db/strongs.sqlite'
+        #     sql = "SELECT number, description FROM strongs WHERE number like '{}'".format(cd_strong)
+        #     cursor = ConectorBD(strongs).cursor()
+        #     rs = cursor.execute(sql).fetchone()
+        #     ls_rs.append(rs)
+        pass
         
-        ls_rs = list()
-        # removendo as duplicatas para as definições dicionário strong
-        for cd_strong in list(dict.fromkeys(strong_ocorrencias)):
-            strongs = '/Users/davison/Software/almeida-semantica/db/strongs.sqlite'
-            sql = "SELECT number, description FROM strongs WHERE number like '{}'".format(cd_strong)
-            cursor = conexao(strongs).cursor()
-            rs = cursor.execute(sql).fetchone()
-            ls_rs.append(rs)
-        
-        return ls_rs
+        # return ls_rs
 
     def set_lemma(self):
         pass

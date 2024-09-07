@@ -7,21 +7,25 @@ from src.VersoGg import *
 class ServicoTraducao:
     def __init__(self, periodo):
         self.periodo = periodo
-        self.texto_traduzido = self.set_traducao()
+        self.texto_traduzido_pt = self.set_traducao_pt()
 
-    def set_traducao(self):
+    def set_traducao_pt(self):
         if isinstance(self.periodo, PalavraHb):
             self.tradutor = Translator(from_lang='he', to_lang='pt')
-            return self.tradutor.translate(self.periodo.ocorrencia)
+            txt = self.tradutor.translate(self.periodo.ocorrencia)
+            return txt
         elif isinstance(self.periodo, VersoHb):
             self.tradutor = Translator(from_lang='he', to_lang='pt')
-            return self.tradutor.translate(self.periodo.texto)
+            txt = self.tradutor.translate(self.periodo.texto)
+            return txt
         elif isinstance(self.periodo, PalavraGg):
             self.tradutor = Translator(from_lang='el', to_lang='pt')
-            return self.tradutor.translate(self.periodo.ocorrencia)
+            txt = self.tradutor.translate(self.periodo.ocorrencia)
+            return txt
         elif isinstance(self.periodo, VersoGg):
             self.tradutor = Translator(from_lang='el', to_lang='pt')
-            return self.tradutor.translate(self.periodo.get_txt_vs())
+            txt = self.tradutor.translate(self.periodo.get_txt_vs())
+            return txt
 
     def traduzir_expressao(self):
         # TODO 

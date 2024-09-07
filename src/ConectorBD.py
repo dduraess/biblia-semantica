@@ -2,7 +2,7 @@ import sqlite3
 
 class ConectorBD:
     def __init__(self, arq):
-        con=self.getConexao(arq)
+        self.con=self.getConexao(arq)
 
     def getConexao(self, arq):
         try:

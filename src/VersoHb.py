@@ -1,4 +1,4 @@
-import sqlite3
+from src.ConectorBD import *
 from src.livro import livro
 
 class VersoHb:
@@ -14,9 +14,8 @@ class VersoHb:
 
     def set_texto(self):
         sql ='SELECT Verse, Form FROM Words WHERE nr_sq_livro like "{}" and Chapter = {} and Verse = {}'.format(self.livro, self.nr_cap, self.nr_vs)
-        with sqlite3.connect('/Users/davison/Software/almeida-semantica/db/OSHB.db') as cnx:
-            cursor = cnx.cursor()
-            rs = cursor.execute(sql).fetchall()
-            # nr_versiculo = rs[0][0]
-            palavras_vs_hb = ''.join([p[1].replace('/', '') + ' ' for p in rs])
+        oshb = '/Users/davison/Software/almeida-semantica/db/OSHB.db'
+        rs = ConectorBD(oshb).con.cursor().execute(sql).fetchall()
+        # nr_versiculo = rs[0][0]
+        palavras_vs_hb = ''.join([p[1].replace('/', '') + ' ' for p in rs])
         return palavras_vs_hb
