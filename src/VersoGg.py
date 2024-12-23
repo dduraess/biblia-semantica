@@ -11,6 +11,9 @@ class VersoGg:
         self.cap = nr_cap
         self.nr_vs = nr_vs
         self.vs = self.set_vs()
+        self.txt = self.get_txt_vs()
+        self.palavras = self.get_txt_vs_sem_nr_punct()
+
 
     def set_vs(self):
 

@@ -19,8 +19,10 @@ class PalavraGg:
         # atributo de verso contendo lista de XML cujos filhos são atributos
         # TODO alterar para retornar apenas as referências (atentar pelo nr da palavra)
         # e não o conteúdo do versículo
-        lst_ocorrencias = [VersoGg(id_livro, nr_cap, nr_vs).vs for id_livro, nr_cap, nr_vs in rs]
-        return lst_ocorrencias
+        # lst_ocorrencias = [VersoGg(id_livro, nr_cap, nr_vs).get_txt_vs_sem_nr_punct for id_livro, nr_cap, nr_vs in rs]
+        lst_nr_ocorrencia_ref = [VersoGg(id_livro, nr_cap, nr_vs).palavras for id_livro, nr_cap, nr_vs in rs]
+
+        return rs
     
     def set_ocorrencias_lxx(self):
         sql = """
