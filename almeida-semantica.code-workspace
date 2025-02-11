@@ -4,16 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../scripts"
-		},
-		{
-			"path": "../com.github.unyieldinggrace"
-		},
-		{
-			"path": "../util/kindle"
-		},
-		{
 			"path": "../treino-ml/cltk"
+		},
+		{
+			"path": "../scripts"
 		}
 	],
 	"settings": {}
