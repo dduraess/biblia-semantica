@@ -1,0 +1,1 @@
+CREATE TABLE words (book TEXT, chapter  INTEGER, verse INTEGER, pos TEXT, morph TEXT, lemma TEXT, strongs TEXT, word TEXT, word_nr INTEGER, nr_sq_livro NUMBER, PRIMARY KEY(nr_sq_livro, chapter, verse, word_nr))
