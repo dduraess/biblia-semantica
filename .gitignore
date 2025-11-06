@@ -166,3 +166,9 @@ Pipfile.lock
 glem/*
 .DS_Store
 glem/
+bin/
+include/
+lib64
+modelos-MT.md
+pyvenv.cfg
+share/
